@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: mcpi-python-client
+Version: 0.1.0
+Summary: mcpi-compatible Python client for Fabric TCP bridge
+Author: Ryo-Sajima
+License: MIT
+Keywords: minecraft,mcpi,fabric,rpc
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+mcpi-python-client
+===================
+
+Lightweight mcpi-compatible Python client (skeleton) that talks JSON-Lines over TCP.
+
+Default host/port: `127.0.0.1:4712`.
+
+Install (dev):
+
+```bash
+python -m pip install -e python
+```
+
+Run example:
+
+```bash
+python python/examples/hello_post.py
+```
