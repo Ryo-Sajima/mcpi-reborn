@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcpi-python-client"
+version = "0.1.0"
+description = "mcpi-compatible Python client for Fabric TCP bridge"
+requires-python = ">=3.11"
+authors = [ { name = "Ryo-Sajima" } ]
+license = { text = "MIT" }
+readme = "README.md"
+keywords = ["minecraft", "mcpi", "fabric", "rpc"]
